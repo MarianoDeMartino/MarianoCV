@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <title>Clima Cambio | Bienvenida</title>
-  <link rel="icon" href="img/LogoCC.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preload" href="styles.css" as="style"> 
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+
+    <title>CV Mariano De Martino</title>
+
 </head>
 <body>
-
-  <header id="mainheader">
-    <nav id="mainnavbar">
-      <div class="container">
-        <h1 class="logo"><a href="index.html" >CLIMA<span>CAMBIO</span></a> </h1>
-        <ul>
-          <li><a class="current" href="index.html">Home</a></li>
-          <li><a href="acerca.html">Proyecto</a></li>
-          <li><a href="services.html">Integrantes</a></li>
-          <li><a href="avances.html">Avances</a></li>
-          <li><a href="sitio.html">Sitio proyecto</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div id="showcase">
-      <div class="container">
-        <h1 class="display-1"><span>CLIMA CAMBIO</span> <br>Cuidar la Antártida es cuidar el futuro </h1>
-        <p class="large"><strong>Enfrentamos el desafío del cambio climático en la Antártida. Nuestro proyecto está comprometido en comprender, concientizar y actuar para proteger este tesoro polar y su impacto en el futuro de nuestro planeta.</strong></p>
-        <div class="showcase-row">
-          <a href="services.html" class="btn btn-light">Integrantes</a>
-          <a href="acerca.html" class="btn btn-outline">Proyecto</a>
+    <header>
+        <div class="nav-bg">
+            <nav class="navegacion-principal contenedor">
+                <a href="index.html">Datos Personales</a>
+                <a href="SobreMi.html">Sobre Mí</a>
+                <a href="estudios.html">Estudios</a>
+                <a href="conocimientos.html">Conocimientos</a>
+                <a href="experiencia.html">Experiencia Laboral</a>
+            </nav>
         </div>
-      </div>
-    </div>
-  </header>
 
-</body>
-</html>
+        <h1>
+            Curriculum Vitae
+        </h1>
+    </header>
+    
+    <main>
+        <div class="contenedorpagina">
+            <div class="subtitles"> 
+                <h2> Datos personales</h2> 
+            </div> 
+
+            <div class="contenedortextoimagen">               
+                <div >                   
+                    <img class="foto" src="img/caracv.jpg" alt="foto">
+                </div>
+
+                <div class="cajatexto">
+                    <span class="textobold">Nombre: </span><span > Mariano</span><br>
+                    <span class="textobold">Apellido: </span><span >De Martino</span><br>
+                    <span class="textobold">Edad: </span><span> 24</span><br>
+                    <span class="textobold">Teléfono: </span><span> 2284611333</span><br>
+                    <span class="textobold">Ubicacion: </span><span>Recoleta, Buenos Aires, Argentina</span><br>
+                    <span class="textobold">Email: </span> <span><a href="mailto:mademartino@uade.edu.ar" style="color: white; text-decoration: none;">mademartino@uade.edu.ar</a></span><br>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <div class="footer-text">
+                    <p> Todos los derechos reservados Mariano De Martino</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
