@@ -175,3 +175,11 @@ line-height: 17px;
     padding: 20px;
     color: var(--blanco);
 }
+
+.imagen-agrandable {
+    transition: transform 1s; /* Transición suave para la transformación */
+}
+
+.imagen-agrandable:hover {
+    transform: scale(2.0); /* Agranda la imagen al pasar el cursor por encima */
+}
